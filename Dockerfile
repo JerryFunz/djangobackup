@@ -10,5 +10,8 @@ COPY . .
 # 设置时区
 ENV TZ=Asia/Shanghai
 
+# 安装依赖项
+RUN pip install --no-cache-dir -r requirements.txt
+
 # 运行 Django 项目
 CMD python manage.py runserver 0.0.0.0:8000
