@@ -7,8 +7,8 @@ import pandas as pd
 def read_data_from_wechat(request):
     # 获取 access_token
     token_url = 'https://api.weixin.qq.com/cgi-bin/token'
-    app_id = 'wx43562190a40c82b7'  # 替换为你的 AppID
-    app_secret = '1bcca11a6a95813542ede0ccb68bb7ab'  # 替换为你的 AppSecret
+     # 替换为你的 AppID
+     # 替换为你的 AppSecret
     params = {
         'grant_type': 'client_credential',
         'appid': app_id,
